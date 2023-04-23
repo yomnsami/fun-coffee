@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+ 
+  }
+  
+  .menu-container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    color: beige;
+  }
+  
+  .menu {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .menu li {
+    width: 300px;
+    margin: 20px;
+    background-color: #b46723;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    opacity: 0; /* Set the initial opacity to 0 */
+    transform: translateY(20px); /* Move the item down by 20px */
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out; /* Add a transition effect on opacity and transform properties */
+  }
+  
+  .menu-item {
+    padding: 20px;
+  }
+  
+  .menu-item img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .menu-item h2 {
+    margin: 0;
+    color: beige;
+  }
+  
+  .menu-item p {
+    margin-top: 5px;
+    font-size: 14px;
+    color: beige;
+  }
+  
+  .price {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
